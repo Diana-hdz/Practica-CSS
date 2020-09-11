@@ -1,0 +1,27 @@
+h1 {
+    color:red 
+}
+h2{
+    color: maroon;
+}
+
+
+span{
+    color: green;
+}
+ 
+p{
+    color: blue;
+}
+em{
+    background: black;
+    color: white;
+}
+b{
+    width: 40px;
+    height: 40px;
+}
+
+body{
+    background-color: rgb(173, 255, 173);
+}
