@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Kaushan+Script&family=Lora&family=Nanum+Brush+Script&family=Pacifico&display=swap'); /*Se importa dirección para buscar la fuente en la página de google*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #cccccc;
+    width: 100%;
+    height: 20vh;
+    border: 3px solid #ffffff;
+    margin: 3px 3px;
+    position: relative;
+}
+h1{
+font-family: "Dancing Script" , sans-serif;
+position: absolute;
+top: 40px;
+left: 40px;
+font-style: italic;
+}
+#fuente{
+    color: green;
+    font-family: "Kaushan Script" , sans-serif;
+    font-size: 50px;
+    text-transform: uppercase; /*text-transform se utiliza para cambiar el texto*/
+    font-family: "Nanum Brush Script", sans-serif;
+    
+    text-decoration-line: underline ;
+}
+article{
+    background: lightgreen;
+    width: 85%;
+    height: 80vh;
+    margin: 1px;
+    border: 1px solid #ffffff;
+    /*position: absolute;*/
+    float: left; /*Se utiliza para mover una etiqueta a la derecha*/
+}
+article > div > h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 4px;
+   text-transform: uppercase ;
+}
+article > div > #subtitulo2 {
+    margin-left: 57%;
+    clear: both;
+    margin-top: -10%;
+}
+article > div  > #Subtitulo3 {
+    margin-top: 20%;
+}
+article > div > #parrafo1 {
+    width: 42%;
+    height: 50px;
+    text-align: justify;
+    text-transform: uppercase;
+    margin: 5px 5px;
+    float: left;
+}
+
+article > div > #parrafo2 {
+
+}
+

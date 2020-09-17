@@ -1,0 +1,28 @@
+h1{
+    color: red;
+    text-decoration: underline;
+}
+p{
+    color: blue;
+}
+#azul{
+font-style: italic;
+color: darkblue;
+}
+#amarillo{
+    background-color: black;
+    color: yellow;
+}
+#Rojo{
+    color: red;
+    text-decoration: underline;
+
+}
+#gris{
+    color: gray;
+    font-weight: bold;
+}
+#parrafo{
+    color: gray;
+
+}
