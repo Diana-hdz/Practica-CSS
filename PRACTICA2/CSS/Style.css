@@ -32,35 +32,88 @@ article{
     background: lightgreen;
     width: 85%;
     height: 80vh;
-    margin: 1px;
-    border: 1px solid #ffffff;
-    /*position: absolute;*/
+    margin: 1px 2px;
+    border: 2px solid #ffffff;
+    position: relative;
     float: left; /*Se utiliza para mover una etiqueta a la derecha*/
 }
 article > div > h2{
     font-size: 20px;
     font-family: sans-serif;
-    margin: 4px;
+    margin: 3px 3px;
    text-transform: uppercase ;
 }
 article > div > #subtitulo2 {
-    margin-left: 57%;
-    clear: both;
-    margin-top: -10%;
+    position: absolute;
+    left: 55%;
+    bottom: 92%;
 }
+
 article > div  > #Subtitulo3 {
-    margin-top: 20%;
+    position: absolute;
+    top:40%;
+    margin: 10px 10px;
 }
-article > div > #parrafo1 {
-    width: 42%;
+article > div > p {
+    width: 45%;
     height: 50px;
     text-align: justify;
     text-transform: uppercase;
-    margin: 5px 5px;
-    float: left;
+    font-size: 17px;
 }
 
 article > div > #parrafo2 {
+    position: absolute;
+    left: 53%;
+    bottom: 83%;
 
+}
+article > div > #parrafo3{
+    position: absolute;
+    top:45%;
+    margin: 5px 5px;
+}
+img{
+    margin: 10px 10px;
+    width: 37vw;
+    height: 50vh;
+    position: absolute;
+    left: 53%;
+    top: 31%;
+}
+aside{
+    width: 10%;
+    height: 60%;
+    float: left;
+  
+}
+#caja1{
+    border: 2px solid #ffffff;
+    background: lightgreen;
+    width: 138%;
+    height: 20vh;
+   
+}
+#caja2{
+    border: 2px solid #ffffff;
+    background: #cccccc;
+    width: 138%;
+    height: 60vh;
+}
+footer{
+    clear: both; /* Para limpiar la instruccion que  realizamos del footer*/
+    width: 85%;
+    height: 10vh;
+    background: lightgreen;
+    margin: 2px;
+    border: 1px solid #ffffff;
+}
+h6{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 20px;
+    font-style: italic;
 }
 
