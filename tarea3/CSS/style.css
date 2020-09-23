@@ -11,6 +11,13 @@ h1{
     width: 98%;
  
 }
+h2::first-letter{
+    font-size: 2em;
+}
+.mayuscula{
+    font-size: 2em;
+}
+}
  div > h2{
     font-family:"secular one" ;
     font-style: italic;
