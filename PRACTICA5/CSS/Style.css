@@ -3,48 +3,122 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
 h1 {
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Courier New", Courier, monospace;
-}
+  } 
+
 h1::first-letter {
   font-size: 2em;
   font-style: italic;
 }
-.titulos {
+
+.flex {
   display: flex;
   flex-direction: row;
   flex-grow: wrap;
   justify-content: space-around;
 }
-.flex {
+
+.flex > .columna > div{
+  width: 30px;
+  height: 30px;
+  background: #000000;
+  color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.flex > .columnareversa{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.flex > .columnareversa > div {
+  width: 30px;
+  height: 30px;
+  background: black;
+  color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.flexrow{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.columna > div {
-  background: black;
-  margin: 10px;
-  padding: 20px;
-  width: 30px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-
+.fila{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.flex > .columnareversa > div {
-  background: black;
-  margin: 10px;
-  padding: 20px;
+.filareversa{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.flexrow > .fila > div{
   width: 30px;
   height: 30px;
+  background: #000000;
   color: #ffffff;
+  margin: 10px;
+  padding: 20px;
   font-size: 20px;
-  text-align: center;
-  flex-direction: column-reverse;
 }
+
+.flexrow > .filareversa > div{
+  width: 30px;
+  height: 30px;
+  background: #000000;
+  color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#titulo{
+  text-align: center;
+}
+
+.center{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex-start{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.justifycontent > .center > div{
+  width: 30px;
+  height: 30px;
+  background: #000000;
+  color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.justifycontent > .flex-start > div{
+  width: 30px;
+  height: 30px;
+  background: #000000;
+  color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
