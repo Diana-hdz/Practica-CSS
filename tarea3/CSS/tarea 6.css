@@ -1,3 +1,106 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    padding: 12px;
+   margin: 5px;
+  }
+
+   div{
+    background-color: rgb(217, 135, 250);
+    border: black;
+    padding: 12px;
+    width:50%;
+    margin: 5px;
+    position: relative;
+  }
+
 h1{
-    text-align: center;
-}
+    text-align: justify;
+  }
+
+h2{
+  color: #a200ff;
+  justify-content: space-around;
+ }
+ .flex-start{
+    display: flex;
+    justify-content: flex-start;
+   }
+
+ .flex-start > div{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 166, 0);
+    border-radius: 20%;
+    margin: 10px;
+    padding: 20px;
+ }
+
+ .flex-end {
+  display: flex;
+  justify-content: flex-end;
+ }
+
+.flex-end > div{
+  width: 30px;
+  height: 30px;
+  background:  rgb(255, 166, 0);
+  border-radius: 20%;
+  margin: 10px;
+  padding: 20px;
+ }
+
+ .center{
+  display: flex;
+  justify-content: center;
+ }
+ .center > div{
+  width: 30px;
+  height: 30px;
+  background:  rgb(255, 166, 0);
+  border-radius: 20%;
+  margin: 10px;
+  padding: 20px;
+ }
+
+ .between{
+   display: flex;
+  justify-content: space-between;
+ }
+
+ .between > div{
+  width: 30px;
+  height: 30px;
+  background:  rgb(255, 166, 0);
+  border-radius: 20%;
+  margin: 10px;
+  padding: 20px;
+ }
+
+ .around{
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .around > div{
+  width: 30px;
+  height: 30px;
+  background:  rgb(255, 166, 0);
+  border-radius: 20%;
+  margin: 10px;
+  padding: 20px;
+ }
+
+ .evenly{
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ .evenly > div {
+  width: 30px;
+  height: 30px;
+  background:  rgb(255, 166, 0);
+  border-radius: 20%;
+  margin: 10px;
+  padding: 20px;
+ }
