@@ -27,9 +27,17 @@ h2{
     justify-content: flex-start;
    }
 
- .flex-start > div{
-    width: 30px;
-    height: 30px;
+ #rectangulo{
+    width: 80px;
+    height: 50px;
+    background: rgb(255, 166, 0);
+    border-radius: 20%;
+    margin: 10px;
+    padding: 20px;
+}
+ #cuadrado{
+    width: 40px;
+    height: 50px;
     background: rgb(255, 166, 0);
     border-radius: 20%;
     margin: 10px;
@@ -41,26 +49,9 @@ h2{
   justify-content: flex-end;
  }
 
-.flex-end > div{
-  width: 30px;
-  height: 30px;
-  background:  rgb(255, 166, 0);
-  border-radius: 20%;
-  margin: 10px;
-  padding: 20px;
- }
-
  .center{
   display: flex;
   justify-content: center;
- }
- .center > div{
-  width: 30px;
-  height: 30px;
-  background:  rgb(255, 166, 0);
-  border-radius: 20%;
-  margin: 10px;
-  padding: 20px;
  }
 
  .between{
@@ -68,27 +59,9 @@ h2{
   justify-content: space-between;
  }
 
- .between > div{
-  width: 30px;
-  height: 30px;
-  background:  rgb(255, 166, 0);
-  border-radius: 20%;
-  margin: 10px;
-  padding: 20px;
- }
-
  .around{
    display: flex;
    justify-content: space-around;
- }
-
- .around > div{
-  width: 30px;
-  height: 30px;
-  background:  rgb(255, 166, 0);
-  border-radius: 20%;
-  margin: 10px;
-  padding: 20px;
  }
 
  .evenly{
@@ -96,11 +69,4 @@ h2{
    justify-content: space-evenly;
  }
 
- .evenly > div {
-  width: 30px;
-  height: 30px;
-  background:  rgb(255, 166, 0);
-  border-radius: 20%;
-  margin: 10px;
-  padding: 20px;
- }
+ 
