@@ -1,5 +1,4 @@
 body {
-    padding: 0;
     box-sizing: border-box;
     padding: 12px;
    margin: 5px;
@@ -7,7 +6,6 @@ body {
 
    div{
     background-color: rgb(217, 135, 250);
-    border: black;
     padding: 12px;
     width:50%;
     margin: 5px;
