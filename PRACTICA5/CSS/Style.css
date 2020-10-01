@@ -30,6 +30,8 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  line-height: 12px;
+  text-align: center;
 }
 
 .flex > .columnareversa{
@@ -46,6 +48,8 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+ 
+  text-align: center;
 }
 
 .flexrow{
@@ -75,6 +79,7 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 
 .flexrow > .filareversa > div{
@@ -85,6 +90,7 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 
 #titulo{
@@ -111,6 +117,7 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 .justifycontent > .flex-start > div{
   width: 30px;
@@ -120,6 +127,7 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 
 .flexend{
@@ -154,6 +162,7 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 .spacebetween{
   display: flex;
@@ -168,6 +177,7 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 .spaceevenly{
   display: flex;
@@ -182,6 +192,7 @@ h1::first-letter {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 .itemscenter{
   display: flex;

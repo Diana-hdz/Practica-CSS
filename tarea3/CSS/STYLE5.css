@@ -13,65 +13,60 @@ body{
 #pelota{
     width: 45px;
     height: 45px;
-    background: #ffffff;
+    background:  #05104b;
     position: absolute;
     border-radius: 50%; 
 animation: pelota 10s infinite linear;
 }
 @keyframes pelota{
     0%{
-        background: #ffffff;
-        top:50%;
-        left:0% ;
-    }
-    5%{
-        background: #ffffff;
-        top:55% ;
+        background: #05104b;
+        top: 77%;
         left: 10%;
     }
-    10%{
-        background: #ffffff;
-        top: 60%;
+    5%{
+        background: #05104b;
+        top: 67%;
         left: 20%;
     }
-    15%{
-        background: #ffffff;
-        top: 65%;
+    10%{
+        background: #05104b;
+        top: 57%;
         left: 30%;
     }
-    20%{
-        background: #ffffff;
-        top: 70%;
+    15%{
+        background: #05104b;
+        top:47%;
         left: 40%;
     }
-    25%{
-        background: #ffffff;
-        top: 75%;
-        left: 50%;
+    20%{
+        background: #05104b;
+        top: 57%;
+        left:50%;
     }
-    35%{
-        background: #ffffff;
-        top: 70%;
+    25%{
+        background: #05104b;
+        top: 67%;
         left: 60%;
     }
-    40%{
-        background: #ffffff;
-        top: 65%;
+    30%{
+        background: #05104b;
+        top: 77%;
         left: 70%;
     }
-    45%{
-        background: #ffffff;
-        top: 50%;
-        left:80% ;
+    35%{
+        background: #05104b;
+        top: 87%;
+        left: 80%;
     }
-  50%{
-    background: #ffffff;
-    top: 65%;
-    left:0% ;
+    30%{
+        background: #05104b;
+        top: 77%;
+        left: 70%;
+    }
+   25%{
+    background: #05104b;
+    top: 67%;
+    left: 60%;
+   }
   }
-    
-   
-   
-    
-    
-}
