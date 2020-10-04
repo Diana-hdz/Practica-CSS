@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.cuadro{
+    width: 7%;
+    height: 15vh;
+    background: #ff00dd;
+    border: 2px ;
+  }
+}
+.cuadro >.fa{
+    width: 50%;
+    height:20%;
+
+}
+.cuadro1{
+    width: 7%;
+    height: 15vh;
+    background: rgb(0, 153, 255);
+    border: 2px ;
+}
+.cuadro1 > .fa{
+    width: 50%;
+    height:20%;
+}
+.cuadro2{
+    width: 7%;
+    height: 15vh;
+    background: rgb(250, 37, 37);
+    border: 2px ;
+}
+.cuadro2 > .fa{
+    width: 50%;
+    height:20%;
+}
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;  
+}
+.cuadro3{
+    width: 7%;
+    height: 15vh;
+    background: rgb(255, 0, 0);
+    border: 2px ;
+}
+.cuadro3 > .fa{
+    width: 50%;
+    height:20%; 
+}
+.cuadro4{
+    width: 7%;
+    height: 15vh;
+    background: rgb(0, 102, 255);
+    border: 2px ;
+}
+.cuadro4 > .fa{
+    width: 50%;
+    height:20%;   
+}
+.cuadro5{
+    width: 7%;
+    height: 15vh;
+    background: rgb(51, 129, 247);
+    border: 2px ;
+}
+.cuadro5 >.fa{
+    width: 50%;
+    height:20%;   
+}
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.cuadro6 {
+    width: 7%;
+    height: 15vh;
+    background: rgb(255, 230, 0);
+    border: 2px ;
+}
+.cuadro6 > .fa{
+    width: 50%;
+    height:20%;   
+}
+.cuadro7{
+    width: 7%;
+    height: 15vh;
+    background: rgb(70, 73, 241);
+    border: 2px ;
+}
+.cuadro7 > .fa{
+    width: 50%;
+    height:20%;   
+}
+.cuadro8{
+    width: 7%;
+    height: 15vh;
+    background: rgb(194, 0, 0);
+    border: 2px ;
+}
+.cuadro8 > .fa{
+    width: 50%;
+    height:20%;  
+   
+}
+a > .fa{
+    font-size: 80px;
+    padding-left:15% ;
+    margin-top: 5%;
+  cursor: pointer;
+  color: white;
+
+}
+a > .fa:hover{
+    color: rgb(255, 255, 255);
+}
