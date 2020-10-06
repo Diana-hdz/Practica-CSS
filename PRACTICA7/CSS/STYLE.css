@@ -5,22 +5,60 @@
 }
 
 body{
-    background: rgb(42, 165, 128);
+    background: rgb(174, 178, 255);
 }
 
 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 2%;
-    color: rgb(50, 42, 165);
+    color: rgb(12, 12, 12);
     font-style: italic;
 }
-a > .fa{
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+
+}
+.fila1 > a > .fa{
     font-size: 50px;
     padding-left:10% ;
     margin-top: 5%;
   cursor: pointer;
 }
+/*hover se le da estilo especifico a cualquier estiqueta*/
 a > .fa:hover{
     color: black;
+}
+.fila2{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.fila2 > a > .fa{
+font-size: 50px;
+cursor: pointer;
+}
+.fila3{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: space-evenly;
+    margin-top: 3%;   
+}
+.fila3 > a > .fa{
+    font-size: 50px;
+cursor: pointer;
+}
+.fila4{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: space-evenly;
+    margin-top: 3%;    
+}
+.fila4 > a > .fa{
+    font-size: 50px;
+    cursor: pointer;
 }

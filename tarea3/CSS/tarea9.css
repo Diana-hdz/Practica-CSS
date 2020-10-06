@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background: white;
+    
+}
+.verde{
+    width: 20%;
+    height: 30vh;
+    border:2px solid rgb(52, 194, 175);
+}
+.verde > .titulo{
+    width: 100%;
+    height: 90px;
+    background:rgb(52, 194, 175) ;
+
+}
+.verde > .titulo > p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.verde >.cuadroblanco > p >.negritas{
+    font-weight: bold;
+}
+.verde > .cuadroblanco >p{
+    text-align: center;
+}
+.verde > .cuadroblanco > .puntos{
+    border-bottom: dotted;
+    border-bottom-color:black ;
+}
+.verde > .cuadroblanco > .botonverde{
+    width: 40%;
+    height: 25px;
+    background:rgb(52, 194, 175) ;
+    border:2px solid;
+    color: white; 
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 3%;
+}
+.lineaverde{
+    height: 8px;
+    width: 100%;
+    background-color:rgb(52, 194, 175);
+}
+.naranja{
+    width: 20%;
+    height: 30vh;
+    border:2px solid rgb(255, 115, 0); 
+}
+.naranja > .titulo{
+    width: 100%;
+    height: 90px;
+    background:rgb(255, 115, 0);
+}
+.naranja > .cuadroblanco > p{
+    text-align: center;
+}
+.naranja > .titulo > p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.naranja >.cuadroblanco > p >.negritas{
+    font-weight: bold;
+}
+.naranja > .cuadroblanco > .puntos{
+    border-bottom: dotted;
+    border-bottom-color:black ;
+}
+.naranja > .cuadroblanco > .botonnaranja{
+    width: 40%;
+    height: 25px;
+    background:rgb(255, 115, 0) ;
+    border:2px solid;
+    color: white; 
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 3%;
+}
+.lineanaranja{
+    height: 8px;
+    width: 100%;
+    background-color:rgb(255, 115, 0);
+}
+.rojo{
+    width: 20%;
+    height: 30vh;
+    border:2px solid rgb(255, 0, 0); 
+}
+.rojo > .titulo{
+    width: 100%;
+    height: 90px;
+    background:rgb(255, 0, 0);
+}
+.rojo > .titulo > p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+.rojo > .cuadroblanco > p{
+    text-align: center;
+}
+.rojo >.cuadroblanco > p >.negritas{
+    font-weight: bold;
+}
+.rojo > .cuadroblanco > .puntos{
+    border-bottom: dotted;
+    border-bottom-color:black ;
+}
+.rojo > .cuadroblanco > .botonrojo{
+    width: 40%;
+    height: 25px;
+    background:rgb(255, 0, 0) ;
+    border:2px solid;
+    color: white; 
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 3%;
+}
+.linearoja{
+    height: 8px;
+    width: 100%;
+    background-color:rgb(255, 0, 0);
+}
+.azul{
+    width: 20%;
+    height: 30vh;
+    border:2px solid rgb(0, 140, 255); 
+}
+.azul > .titulo{
+    width: 100%;
+    height: 90px;
+    background:rgb(0, 140, 255);
+}
+.azul > .cuadroblanco > p{
+    text-align: center;
+}
+.azul > .titulo > p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.azul >.cuadroblanco > p >.negritas{
+    font-weight: bold;
+
+}
+.azul > .cuadroblanco > .puntos{
+    border-bottom: dotted;
+    border-bottom-color:black ;
+}
+.azul > .cuadroblanco > .botonazul{
+    width: 40%;
+    height: 25px;
+    background:rgb(0, 140, 255) ;
+    border:2px solid;
+    color: white; 
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 3%;
+}
+.lineaazul{
+    height: 8px;
+    width: 100%;
+    background-color:rgb(0, 140, 255);
+}
