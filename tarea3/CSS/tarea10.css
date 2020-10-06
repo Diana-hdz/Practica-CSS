@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+video{
+    width: 50%;
+    height: 50%;
+    margin: 2% 25%;
+}
+audio{
+  margin: 2% 41%;
+}
+iframe{
+    margin: 2% 30%;
+}
